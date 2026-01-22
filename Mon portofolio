@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>mon portofolio</title>
+        <link rel="stylesheet" href="style.scc">
+        <img src="image/photo.gng" alt="photo de profil"
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="#acceuile">Acceuil</a>
+                <a href="#apropos">Apropos</a>
+                <a href="competences">competences</a>
+                <a href="projets">projets</a>
+                <a href="hobbies">hobbies</a>
+                <a href="sport">sport</a>
+                <a href="contact">contact</a>
+            </nav>
+        </header>
+
+        <section id="acceuile">
+            <h2>acceuile</h2>
+            <p>Bienvenue sur mon portfolio personnel</p>
+            <p>je suis fatou, développeuse web debutante</p>
+        </section>
+
+        <section id="Apropos">
+            <h2>a propos</h2>
+            <p>je suis passionee de la developpement web</p>
+            <p>Mon objectif est de devenir une developpeuse professionnelle</p>
+        </section>
+
+        <section id="competences">
+            <h2>competences</h2>
+            <ul>
+                <li>HTML</li>
+                <li>css</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="projets">
+            <h2>projets</h2>
+            <p>portfolio personnel</p>
+            <p>Tableau HTML avec JavaScript</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>hobbies</h2>
+            <p>lecture, apprentissage, technologie</p>
+        </section>
+
+        <section id="sport">
+            <h2>sport</h2>
+            <form>
+                <input type="text" placeholder="Nom">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>2026 - Mon portfolio</p>
+        </footer>
+    </body>
+</html>
